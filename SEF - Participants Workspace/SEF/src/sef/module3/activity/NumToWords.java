@@ -1,25 +1,12 @@
-/**
- *
- */
 package sef.module3.activity;
 
-/**
- * @author
- *
- */
 public class NumToWords {
-
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
-
 
         int i = 8;
         String numText = "";
 
         switch (i) {
-
             case 1:
                 numText = "ONE";
                 break;
@@ -35,15 +22,19 @@ public class NumToWords {
             case 5:
                 numText = "FIVE";
                 break;
-            // complete the code.
+            case 6:
+                numText = "SIX";
+                break;
+            case 7:
+                numText = "SEVEN";
+                break;
+            case 8:
+                numText = "EIGHT";
+                break;
             default:
                 numText = "NUMBER " + i;
         }
 
         System.out.println(numText);
-
-
     }
-
-
 }

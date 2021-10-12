@@ -1,14 +1,6 @@
-/**
- *
- */
 package sef.module3.activity;
 
-/**
- * @author
- *
- */
 public class Calculator {
-
     public static void main(String[] args) {
 
         int x = 10;
@@ -20,7 +12,6 @@ public class Calculator {
         System.out.println("Subtraction - " + subtract(x, y));
         System.out.println("Multiply - " + multiply(nums));
         System.out.println("Divide - " + divide(x, y));
-
     }
 
 
@@ -60,8 +51,6 @@ public class Calculator {
             divValue = x / y;
         }
         return divValue;
-
     }
-
 }
 

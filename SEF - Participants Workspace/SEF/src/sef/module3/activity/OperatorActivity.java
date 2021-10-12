@@ -1,13 +1,6 @@
 package sef.module3.activity;
 
-/**
- * @author
- */
 public class OperatorActivity {
-
-    /**
-     * @param args
-     */
     public static void main(String[] args) {
 
         // Declare numbers to be operated
@@ -39,8 +32,5 @@ public class OperatorActivity {
         //Modulo
         int modulo = j % i;
         System.out.println("Modulo = " + modulo);
-
-
     }
-
 }
